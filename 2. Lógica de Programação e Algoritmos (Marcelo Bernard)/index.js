@@ -15,6 +15,7 @@
 // Como funciona um programa? Através de linhas de códigos, ou linhas de comandos, que estarão em uma IDE (Ferramenta de desenvolvimento, que pode de um bloco de notas até IDEs mais complexas como Delphi, Eclipse, VS, etc...) no qual essas opções terão a opção de compilação que lê as linhas de código e traduz as linhas de código para uma linguagem que o computador entenda. Hoje em dia as empresas utilizam a programação de ALTO NÍVEL, sendo o alto nível não precisa se preocupar com o hardware, enquanto as de BAIXO NÍVEL está mais próximo da linguagem de máquina sendo necessário uma preocupação com o hardware (memória, placa mãe, processador, barramento, etc...), sendo necessário um conhecimento muito mais profundo. Empresas que utilizam linguagens de baixo nível geralmente estão ligadas quando deseja uma performance maior do hardware, como a indústria de programação de jogos.
 // Vamos utilizar o Portugol utilizando o VisualG. A programação começou com a linguagem Fortran na década de 50, depois o “lisp(?)”, depois o algol(década de 60), em seguinte Delphi, pascal, etc...
 
+
 // Aula 3
 // VisualG abrasileiramento do pascal, que é uma linguagem de base para desenvolvimento em Delphi. Não há como programar em portugol.
 // Programação web = PHP (exclusiva para websites e fácil de aprender)
