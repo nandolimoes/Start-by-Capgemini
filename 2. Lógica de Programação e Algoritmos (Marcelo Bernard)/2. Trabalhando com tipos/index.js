@@ -664,3 +664,161 @@
 // fimpara
 
 // Fimalgoritmo
+
+// Parte 24
+
+// Algoritmo "Debug"
+
+// Var
+// x, y, w: inteiro
+
+
+// Inicio
+//  Escreval("X")
+//  leia(x)
+//  Escreval("Y")
+//  leia(y)
+  //break point f5
+ 
+//  w <- x + y
+//  escreval(w)
+  //para continuar passo a passo linha a linha f8
+  //para ler at� o pr�ximo break point f9
+
+// Fimalgoritmo
+
+// parte 25
+
+// Algoritmo "Vetores e arrays"
+
+// Var
+// vetorNomes : vetor[1..5] de caractere
+// vetorIdades : vetor[1..5] de inteiro
+// i : inteiro
+
+// Inicio
+
+// para i de 1 ate 5 faca
+// Escreva("Informe seu nome: ")
+// leia(vetorNomes[i])
+
+// Escreva("Informe sua idade: ")
+// leia(vetorIdades[i])
+
+
+// Escreval(vetorNomes[i])
+// Escreval(vetorIdades[i])
+
+
+// fimpara
+
+// Fimalgoritmo
+
+//parte 26
+
+// Algoritmo "Vetores, procurar nome no vetor"
+
+// Var
+// nomes : vetor[1..5] de caractere
+// i, sucesso : inteiro
+// pesquisa: caractere
+
+
+// Inicio
+
+// para i de 1 ate 5 faca //come�a no indice 0 mas no pascal no indice 1
+//      Escreval("Informe o nome a cadastrar")
+//      leia(nomes[i])
+// fimpara
+// limpatela
+ //ctrl j mostra todas as fun��es existentes
+
+// Escreva("Informe um nome a pesquisar: ")
+// leia(pesquisa)
+
+// sucesso <- 0
+
+// para i de 1 ate 5 faca
+//        se nomes[i] = pesquisa entao
+//          sucesso <- 1
+//        fimse
+// fimpara
+
+// se sucesso = 1 entao
+//    Escreval("Cliente encontrado")
+// senao
+//      Escreval("Cliente n�o encontrado")
+// fimse
+
+// Fimalgoritmo
+
+// Parte 27
+
+// Algoritmo "Inverter ordem de um vetor"
+ //Dado um vetor de 10 n�meros fazer um segundo vetor que ap�s o primeiro ser
+ //preenchido o segundo vetor ser� preenchido com a ordem reversa do primeiro.
+
+// Var
+
+// numeros, numerosReversos: vetor [1..10] de inteiro
+// i, aux : inteiro  //i = indice, aux = auxiliar temp = temporario
+
+
+// Inicio
+
+// para i de 1 ate 10 faca
+//   Escreval("Numero ",i)
+//   leia(numeros[i])
+// fimpara
+
+// aux <- 11
+
+// para i de 1 ate 10 faca
+//      numerosReversos[aux-i] <- numeros[i]
+// fimpara
+
+
+
+// Fimalgoritmo
+
+// Algoritmo "Somando e subtraindo no vetor"
+
+// Var
+
+// numeroUm, numeroDois, numeroTres: vetor [1..5] de inteiro
+// i, aux : inteiro  //i = indice, aux = auxiliar temp = temporario
+// opcao : caractere
+
+// Inicio
+
+// para i de 1 ate 5 faca
+//   Escreval("1 - Numero ",i)
+//   leia(numeroUm[i])
+// fimpara
+
+//Parte 28
+
+// para i de 1 ate 5 faca
+//   Escreval("2 - Numero ",i)
+//   leia(numeroDois[i])
+// fimpara
+
+// Escreval("1 - Soma")
+// Escreval("2 - Subtracao")
+// leia(opcao)
+
+// se opcao = "1" entao
+//   para i de 1 ate 5 faca
+//        numeroTres[i] <- numeroUm[i] + numeroDois[i]
+//        Escreval(numeroTres[i])
+// fimpara
+// senao
+// se opcao = "2" entao
+//       para i de 1 ate 5 faca
+//            numeroTres[i] <- numeroUm[i] - numeroDois[i]
+//            Escreval(numeroTres[i])
+//       fimpara
+// fimse
+// fimse
+
+// Fimalgoritmo
